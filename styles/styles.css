@@ -45,7 +45,7 @@ h1, h2, h3 {
 .btn {
     display: inline-block;
     color: white;
-    background-color: #b19c81;
+    background-color: #4079cb;
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -97,7 +97,7 @@ h1, h2, h3 {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #b19c81;
+    background-color: #4079cb;
 }
 
 #navbar a {
@@ -146,4 +146,35 @@ h1, h2, h3 {
     margin-right: auto;
     margin-bottom: 25px;
     font-size: xx-large;
+}
+
+/* mission */
+
+#mission {
+    height: 400px;
+    overflow: hidden;
+    background-color: #062655;
+    color: white;
+}
+
+#mission-statement {
+    max-width: 50%;
+    text-align: center;
+    float: left;
+    line-height: 1.7em;
+    padding: 5px;
+}
+
+#mission-statement h2 {
+    margin-top: 115px;
+    font-size: 35px;
+}
+
+#mission-statement p {
+    font-size: larger;
+}
+
+#management {
+    max-width: 50%;
+    float: right;
 }
