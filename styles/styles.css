@@ -2,6 +2,15 @@
 
 /* color theme: #062655, #b19c81, #4079cb */
 
+/* variables */
+
+:root {
+    --primary-color: #062655;
+    --secondary-color: #b19c81;
+    --secondary-color-clear: #b19c8190;
+    --accent-color: #4079cb;
+    --accent-color-2: #264778;
+}
 
 /* global */
 
@@ -45,7 +54,7 @@ h1, h2, h3 {
 .btn {
     display: inline-block;
     color: white;
-    background-color: #4079cb;
+    background-color: var(--accent-color);
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -54,7 +63,7 @@ h1, h2, h3 {
 }
 
 .dark-btn {
-    background-color: #062655;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -69,7 +78,7 @@ h1, h2, h3 {
 /* navbar */
 
 #navbar {
-    background-color: #264778;
+    background-color: var(--accent-color-2);
     max-height: 200px;
 }
 
@@ -106,6 +115,17 @@ h1, h2, h3 {
     padding-right: 10px;
 }
 
+/* footer */
+
+#footer {
+    text-align: center;
+    font-size: large;
+    background-color: var(--accent-color-2);
+    color: white;
+    height: 100px;
+    padding: 40px;
+}
+
 
 /* home page */
 
@@ -118,9 +138,9 @@ h1, h2, h3 {
 }
 
 #showcase .showcase-content {
-    color: #062655;
+    color: var(--primary-color);
     text-align: center;
-    background-color: #b19c8185;
+    background-color: var(--secondary-color-clear);
     margin-top: 150px;
     max-width: fit-content;
     margin-left: auto;
@@ -138,7 +158,7 @@ h1, h2, h3 {
 }
 
 #showcase .showcase-content h1 span {
-    color: #4079cb;
+    color: var(--accent-color);
 }
 
 #showcase a {
@@ -153,7 +173,7 @@ h1, h2, h3 {
 #mission {
     height: 400px;
     overflow: hidden;
-    background-color: #062655;
+    background-color: var(--accent-color-2);
     color: white;
 }
 
@@ -161,20 +181,76 @@ h1, h2, h3 {
     max-width: 50%;
     text-align: center;
     float: left;
-    line-height: 1.7em;
+    line-height: 1.9em;
     padding: 5px;
 }
 
 #mission-statement h2 {
-    margin-top: 115px;
+    margin-top: 100px;
     font-size: 35px;
+    margin-left: 20px;
 }
 
 #mission-statement p {
-    font-size: larger;
+    font-size: 21px;
+    margin-left: 20px;
 }
 
 #management {
     max-width: 50%;
     float: right;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+#management img {
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+/* join our family */
+
+#join-our-family {
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 1.7em;
+    /* background-color: var(--secondary-color); */
+    background: url("../img/downsyndrome-home_tan_dark.jpg") no-repeat top center/cover;
+    color: var(--primary-color);
+    overflow: hidden;
+}
+
+#join-our-family-content {
+    background-color: #ffffff50;
+    width: 40%;
+    margin-top: 50px;
+}
+
+#join-our-family h1, #join-our-family h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: #ffffff90 1px 2px;
+}
+
+#join-our-family h1 {
+    padding-right: 50px;
+    padding: 50px;
+}
+
+#join-our-family h2 {
+    padding-left: 50px;
+    padding-bottom: 70px;
+}
+
+#join-our-family a {
+    font-size: xx-large;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+#join-our-family span {
+    color: var(--accent-color);
 }
