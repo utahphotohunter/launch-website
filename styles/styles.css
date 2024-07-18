@@ -288,7 +288,7 @@ a.current {
 #staff-page h2 {
     padding-left: 100px;
     padding-top: 20px;
-    color: var(--accent-color);
+    color: var(--primary-color);
     text-shadow: white 1px 2px;
     font-size: 40px;
 }
@@ -318,17 +318,19 @@ a.current {
 }
 
 .staff {
-    height: 250px;
-    background-color: var(--primary-color);
+    height: 300px;
+    background-color: var(--accent-color-2);
+    border-top: dotted var(--secondary-color) 2px;
+    padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .staff-img img {
-    display: inline-block;
     border-radius: 100%;
     float: left;
     height: 200px;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
@@ -338,3 +340,52 @@ a.current {
     max-width: 80%;
     float: right;
 }
+
+.staff-bio h3 {
+    font-size: 1.5rem;
+}
+
+.staff-bio p {
+    font-size: large;
+}
+
+#staff-contact-us {
+    height: 400px;
+    margin: auto;
+    line-height: 2rem;
+    background: url("../img/letters4.jpg") center center/cover no-repeat;
+    padding-top: 65px;
+}
+
+#staff-contact-us-content {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: var(--secondary-color-clear);
+    padding-bottom: 50px;
+    padding-top: 20px;
+    max-width: 50%;
+}
+
+#staff-contact-us h2 {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: var(--primary-color);
+}
+
+#staff-contact-us span {
+    color: var(--accent-color);
+}
+
+#staff-contact-us-content h3 {
+    padding-bottom: 30px;
+    padding-top: 15px;
+    color: var(--accent-color-2);
+    font-size: 2rem;
+    text-shadow: white 1px 1px;
+}
+
+
+
+
