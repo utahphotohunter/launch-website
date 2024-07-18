@@ -145,6 +145,8 @@ a.current {
 }
 
 
+
+
 /* home page */
 
 /* showcase */
@@ -271,4 +273,68 @@ a.current {
 
 #join-our-family span {
     color: var(--accent-color);
+}
+
+
+
+/* staff page*/
+
+/* staff bios */
+
+#staff-page {
+    background-color: var(--secondary-color-clear);
+}
+
+#staff-page h2 {
+    padding-left: 100px;
+    padding-top: 20px;
+    color: var(--accent-color);
+    text-shadow: white 1px 2px;
+    font-size: 40px;
+}
+
+#staff-heading {
+    background: url("../img/friends-meet-blue.jpg") center center/cover no-repeat;
+    height: 400px;
+    padding-top: 100px;
+}
+
+#staff-heading-content {
+    text-align: center;
+    background-color: var(--secondary-color-clear);
+    max-width: 50%;
+    height: 200px;
+}
+
+#staff-heading-content h1 {
+    color: var(--primary-color);
+    padding-top: 85px;
+    font-size: 80px;
+    text-shadow: white 1px 2px;
+}
+
+#staff-heading-content span {
+    color: var(--accent-color);
+}
+
+.staff {
+    height: 250px;
+    background-color: var(--primary-color);
+}
+
+.staff-img img {
+    display: inline-block;
+    border-radius: 100%;
+    float: left;
+    height: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.staff-bio {
+    padding-top: 40px;
+    color: white;
+    max-width: 80%;
+    float: right;
 }
