@@ -349,6 +349,8 @@ a.current {
     font-size: large;
 }
 
+/* staff contact us */
+
 #staff-contact-us {
     height: 400px;
     margin: auto;
@@ -387,5 +389,74 @@ a.current {
 }
 
 
+
+/* services page */
+
+/* services heading */
+
+#services-page {
+    background-color: var(--accent-color-2);
+}
+
+#services-header {
+    color: var(--primary-color);
+    text-shadow: white 2px 1px;
+    text-align: center;
+    font-size: 3.5rem;
+    height: 400px;
+    padding: 20px;
+    background: url("../img/services-background-blue.jpg") bottom center/cover no-repeat;
+}
+
+#services-header-div {
+    margin: auto;
+    margin-top: 100px;
+    height: 50%;
+    width: 50%;
+    background-color: var(--secondary-color-clear);
+    padding-top: 75px;
+}
+
+#services-header span {
+    color: var(--accent-color);
+}
+
+/* services content */
+
+.services-content {
+    height: fit-content;
+    overflow: hidden;
+    border: var(--secondary-color) dotted 1px;
+}
+
+.service-img {
+    max-width: 30%;
+    float: left;
+    overflow: hidden;
+    background-color: var(--primary-color);
+}
+
+.service-img img {
+    width: 100%;
+    padding: 30px;
+}
+
+.service-text {
+    float: right;
+    max-width: 70%;
+    padding: 20px;
+    padding-top: 6rem;
+}
+
+.service-text h2, .service-text p {
+    color: white;
+    text-align: center;
+}
+
+.flip .service-img {
+    float: right;
+}
+
+/* services contact us */
 
 
