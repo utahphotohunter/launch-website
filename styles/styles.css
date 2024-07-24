@@ -459,4 +459,34 @@ a.current {
 
 /* services contact us */
 
+#services-contact-us {
+    text-align: center;
+    background: url("../img/computer-station-blue.jpg") center center/cover no-repeat;
+    height: 400px;
+    padding: 30px;
+}
 
+#services-contact-us-content {
+    background-color: var(--secondary-color-clear);
+    height: 300px;
+    width: 60%;
+}
+
+#services-contact-us-content h1 {
+    color: var(--primary-color);
+    text-shadow: white 1px 2px;
+    font-size: 3.7rem;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+#services-contact-us-content a {
+        font-size: xx-large;
+        width: 200px;
+        margin-bottom: 50px;
+        padding: 1.5rem;
+}
+
+#services-contact-us-content span {
+    color: var(--accent-color);
+}
