@@ -9,7 +9,7 @@
     <title>Launch Services | Contact Us</title>
 </head>
 
-<body>
+<body id="contact-body">
     <header>
         <nav id="navbar">
             <div class="container">
@@ -24,7 +24,38 @@
         </nav>
     </header>
     <main>
-
+        <section id="contact-header">
+            <div id="contact-header-content">
+                <h1><span>Contact</span> Us</h1>
+            </div>
+        </section>
+        <section id="contact-form">
+            <div class="container" id="contact-form-preface">
+                <h2>Fill out the form below and reach out to us!</h2>
+            </div>
+            <div id="contact-form-content">
+                <form action="">
+                    <div class="container contact-form-divs" id="name-inputs">
+                        <label for="firstName">First Name: </label>
+                        <input type="text" id="firstName" name="firstName" placeholder="John"><br>
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Doe">
+                    </div>
+                    <div class="container contact-form-divs" id="email-inputs">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@email.com">
+                    </div>
+                    <div class="container contact-form-divs" id="message-inputs">
+                        <label for="message">Message</label><br>
+                        <textarea type="message" name="message" id="message" placeholder="Enter your message here"></textarea>
+                    </div>
+                    <div class="container">
+                        <button type="submit" class="btn dark-btn">Submit</button>
+                        <button type="reset" class="btn dark-btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 <footer id="footer">

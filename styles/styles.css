@@ -490,3 +490,114 @@ a.current {
 #services-contact-us-content span {
     color: var(--accent-color);
 }
+
+
+/* contact page */
+
+#contact-body {
+    background-color: var(--accent-color-2);
+}
+
+/* contact header */
+
+#contact-header {
+    text-align: center;
+    height: 400px;
+    padding: 25px;
+    padding-top: 125px;
+    background: url("../img/contact-header-blue.jpg") center center/cover no-repeat;
+}
+
+#contact-header-content {
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    background-color: var(--secondary-color-clear);
+}
+
+#contact-header-content h1 {
+    padding-top: 70px;
+    font-size: 4.5rem;
+    color: var(--primary-color);
+    text-shadow: white 1px 2px;
+}
+
+#contact-header-content span {
+    color: var(--accent-color);
+}
+
+/* contact form */
+
+#contact-form-preface {
+    text-align: center;
+    color: white;
+    background-color: var(--accent-color-2);
+    width: 100%;
+    font-size: x-large;
+    padding: 50px;
+}
+
+#contact-form-content {
+    background-color: var(--accent-color);
+    width: 75%;
+    margin: auto;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    height: fit-content;
+}
+
+.contact-form-divs {
+    height: 175px;
+    padding-top: 40px;
+    background-color: var(--primary-color);
+    margin-top: 25px;
+    border: var(--secondary-color) solid 3px;
+}
+
+#contact-form-content label {
+    font-size: xx-large;
+    padding: 25px;
+}
+
+#contact-form-content input,
+#contact-form-content textarea {
+    border: var(--secondary-color) 2px solid;
+    height: 2rem;
+    width: 50%;
+    padding: 10px;
+}
+
+#name-inputs label,
+#name-inputs input {
+    margin-bottom: 20px;
+}
+
+#email-inputs {
+    height: 150px;
+    padding-top: 50px;
+}
+
+#message-inputs {
+    height: 300px;
+}
+
+#message-inputs label {
+    display: inline-block;
+}
+
+#message-inputs textarea {
+    height: 100px;
+    width: 75%;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+#contact-form button {
+    margin: 15px;
+    margin-top: 25px;
+}
