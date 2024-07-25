@@ -492,6 +492,144 @@ a.current {
 }
 
 
+/* about page */
+
+#about-page-body {
+    background-color: var(--accent-color-2);
+}
+
+/* about header */
+
+#about-header {
+    height: 500px;
+    background: url("../img/about-header-blue-crop.jpg") top center/cover no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+#about-header-content {
+    background-color: var(--secondary-color-clear);
+    width: 50%;
+    margin: auto;
+    margin-top: 130px;
+    height: 150px;
+}
+
+#about-header-content h1 {
+    font-size: 3.4rem;
+    padding-top: 60px;
+    color: var(--primary-color);
+    text-shadow: white 1px 2px;
+}
+
+#about-header-content span {
+    color: var(--accent-color);
+}
+
+/* about mission */
+
+#about-mission {
+    background-color: var(--primary-color);
+    background: url("../img/about-mission-crop-smudge.jpg") top center/cover no-repeat;
+    height: 600px;
+    padding-top: 200px;
+}
+
+#about-mission article {
+    width: 90%;
+    background-color: var(--secondary-color-clear);
+    color: white;
+    text-shadow: var(--primary-color) 1px 2px;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    padding: 50px;
+}
+
+/* about haskell quote */
+
+#about-haskell-quote {
+    background: url("../img/about-haskell-background.jpg") center center/cover no-repeat;
+    padding: 50px;
+}
+
+#about-haskell-quote img {
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+/* about history */
+
+#about-history {
+    height: fit-content;
+    background: url("../img/about-history-blue-dark.jpg");
+    padding: 140px;
+}
+
+#about-history-content {
+    padding: 25px;
+    background-color: var(--secondary-color-clear);
+    color: white;
+    text-shadow: var(--primary-color) 1px 2px;
+    text-align: center;
+    font-size: x-large;
+    line-height: 2rem;
+}
+
+/* about staff */
+
+#about-team {
+    background: url("../img/about-meet-staff-blue-bright.jpg") center center/cover no-repeat;
+    height: 400px;
+    padding: 50px;
+}
+
+#about-team-content {
+    background-color: var(--secondary-color-clear);
+    width: 60%;
+    padding: 25px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+#about-team-content h2 {
+    font-size: 3.2rem;
+    padding: 25px;
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    text-shadow: white 1px 2px;
+}
+
+#about-team-content span {
+    color: var(--accent-color);
+}
+
+#about-team-content a {
+    font-size: xx-large;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* contact page */
 
 #contact-body {
@@ -510,7 +648,7 @@ a.current {
 
 #contact-header-content {
     height: 70%;
-    width: 60%;
+    width: 40%;
     margin: auto;
     background-color: var(--secondary-color-clear);
 }
