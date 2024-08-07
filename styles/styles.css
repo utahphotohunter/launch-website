@@ -74,8 +74,6 @@ h1, h2, h3 {
     clear: both;
 }
 
-
-
 /* navbar */
 
 #navbar {
@@ -143,8 +141,6 @@ a.current {
     height: 100px;
     padding: 40px;
 }
-
-
 
 
 /* home page */
@@ -276,7 +272,6 @@ a.current {
 }
 
 
-
 /* staff page*/
 
 /* staff bios */
@@ -387,7 +382,6 @@ a.current {
     font-size: 2rem;
     text-shadow: white 1px 1px;
 }
-
 
 
 /* services page */
@@ -609,25 +603,6 @@ a.current {
     font-size: xx-large;
     margin-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* contact page */
